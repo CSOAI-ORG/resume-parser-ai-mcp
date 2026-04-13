@@ -1,0 +1,10 @@
+name: resume-parser-ai-mcp
+description: "MEOK AI Labs — Resume Parser tools for AI agents and LLMs"
+vendor: MEOK AI Labs
+homepage: https://meok.ai
+repository: https://github.com/CSOAI-ORG/resume-parser-ai-mcp
+license: MIT
+categories: [HR, Document Processing]
+tags: [resume-parsing, cv-analysis, candidate-screening, resume-extraction]
+runtime: python
+entrypoint: server.py
