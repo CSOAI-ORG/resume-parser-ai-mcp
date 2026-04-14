@@ -1,20 +1,6 @@
 {
   "name": "resume-parser-ai-mcp",
-  "description": "MEOK AI Labs \u2014 Resume Parser tools for AI agents and LLMs",
-  "vendor": "MEOK AI Labs",
-  "homepage": "https://meok.ai",
-  "repository": "https://github.com/CSOAI-ORG/resume-parser-ai-mcp",
-  "runtime": "python",
-  "entrypoint": "server.py",
-  "tools": [
-    "parse_resume"
-  ],
-  "categories": [
-    "HR",
-    "Document Processing"
-  ],
-  "pricing": {
-    "free": "50 calls/day",
-    "pro": "$9/mo"
-  }
+  "description": "Resume Parser Ai Mcp \u2014 Parse resumes and extract skills, experience, and contact info.",
+  "version": "1.0.0",
+  "tools": []
 }
