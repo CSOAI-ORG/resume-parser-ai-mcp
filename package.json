@@ -1,7 +1,7 @@
 {
   "name": "resume-parser-ai-mcp",
   "version": "1.0.0",
-  "description": "MEOK AI Labs — resume parser MCP Server",
+  "description": "Resume Parser Ai MCP server. Tools: parse resume, extract skills, match job. Built by MEOK AI Labs.",
   "main": "server.py",
   "mcp": {
     "name": "resume parser",
@@ -9,10 +9,22 @@
     "homepage": "https://meok.ai",
     "repository": "https://github.com/CSOAI-ORG/resume-parser-ai-mcp",
     "runtime": "python",
-    "tags": ["mcp", "mcp-server", "meok-ai-labs", "ai-tools"]
+    "tags": [
+      "mcp",
+      "mcp-server",
+      "meok-ai-labs",
+      "ai-tools"
+    ]
   },
-  "keywords": ["mcp", "mcp-server", "meok-ai-labs"],
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "meok-ai-labs"
+  ],
   "author": "MEOK AI Labs <nicholas@meok.ai>",
   "license": "MIT",
-  "repository": {"type": "git", "url": "https://github.com/CSOAI-ORG/resume-parser-ai-mcp"}
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CSOAI-ORG/resume-parser-ai-mcp"
+  }
 }

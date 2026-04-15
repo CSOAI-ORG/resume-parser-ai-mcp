@@ -1,6 +1,6 @@
 {
   "name": "resume-parser-ai-mcp",
-  "description": "> **By [MEOK AI Labs](https://meok.ai)** \u2014 Parse resumes to extract skills, match against jobs, and score candidates.",
+  "description": "Resume Parser Ai MCP server. Tools: parse resume, extract skills, match job. Built by MEOK AI Labs.",
   "version": "1.0.0",
   "tools": [
     {
