@@ -1,63 +1,38 @@
-# Resume Parser Ai
+<div align="center">
 
-> By [MEOK AI Labs](https://meok.ai) — Parse resumes to extract skills, match against jobs, and score candidates.
+[![GitHub stars](https://img.shields.io/github/stars/CSOAI-ORG/resume-parser-ai-mcp)](https://github.com/CSOAI-ORG/resume-parser-ai-mcp/stargazers)
 
-MEOK AI Labs — resume-parser-ai-mcp MCP Server. Parse resumes and extract skills, experience, and contact info.
+# uresumeU parserU aiU mcp
+
+**MEOK AI Labs — resume-parser-ai-mcp MCP Server. Parse resumes and extract skills, experience, and contact info.**
+
+[![npm version](https://img.shields.io/npm/v/@meok-ai/resume-parser-ai-mcp)](https://www.npmjs.com/package/@meok-ai/resume-parser-ai-mcp)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![MEOK AI Labs](https://img.shields.io/badge/MEOK_AI_Labs-255+_servers-purple)](https://meok.ai)
+
+[Installation](#installation) · [Docs](https://csoai.org) · [Report Bug](https://github.com/CSOAI-ORG/resume-parser-ai-mcp/issues)
+
+</div>
+
+---
 
 ## Installation
 
 ```bash
 pip install resume-parser-ai-mcp
+# or
+npm install -g @meok-ai/resume-parser-ai-mcp
 ```
 
-## Usage
+## Quick Start
 
-```bash
-# Run standalone
-python server.py
+See the project repository for full documentation and examples.
 
-# Or via MCP
-mcp install resume-parser-ai-mcp
-```
+## Enterprise Support
 
-## Tools
-
-### `parse_resume`
-Parse resume text and extract structured information: contact, skills, education, experience.
-
-**Parameters:**
-- `text` (str)
-
-### `extract_skills`
-Extract and categorize all skills from resume text with proficiency estimates.
-
-**Parameters:**
-- `text` (str)
-
-### `match_job`
-Match a resume against job requirements and return a compatibility report.
-
-**Parameters:**
-- `resume_text` (str)
-- `job_requirements` (str)
-
-### `score_resume`
-Score a resume on completeness, formatting indicators, and content quality (0-100).
-
-**Parameters:**
-- `text` (str)
-
-
-## Authentication
-
-Free tier: 15 calls/day. Upgrade at [meok.ai/pricing](https://meok.ai/pricing) for unlimited access.
-
-## Links
-
-- **Website**: [meok.ai](https://meok.ai)
-- **GitHub**: [CSOAI-ORG/resume-parser-ai-mcp](https://github.com/CSOAI-ORG/resume-parser-ai-mcp)
-- **PyPI**: [pypi.org/project/resume-parser-ai-mcp](https://pypi.org/project/resume-parser-ai-mcp/)
+- 📧 nicholas@csoai.org
+- 🌐 [CSOAI.org](https://csoai.org)
 
 ## License
 
-MIT — MEOK AI Labs
+MIT © [CSOAI](https://csoai.org)
