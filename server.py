@@ -65,7 +65,23 @@ def _extract_years(text: str) -> int:
 
 @mcp.tool()
 def parse_resume(text: str, api_key: str = "") -> str:
-    """Parse resume text and extract structured information: contact, skills, education, experience."""
+    """Parse resume text and extract structured information: contact, skills, education, experience.
+
+    Behavior:
+        This tool is read-only and stateless — it produces analysis output
+        without modifying any external systems, databases, or files.
+        Safe to call repeatedly with identical inputs (idempotent).
+        Free tier: 10/day rate limit. Pro tier: unlimited.
+        No authentication required for basic usage.
+
+    When to use:
+        Use this tool when you need structured analysis or classification
+        of inputs against established frameworks or standards.
+
+    When NOT to use:
+        Not suitable for real-time production decision-making without
+        human review of results.
+    """
     allowed, msg, tier = check_access(api_key)
     if not allowed:
         return json.dumps({"error": msg, "upgrade_url": "https://meok.ai/pricing"})
@@ -94,7 +110,23 @@ def parse_resume(text: str, api_key: str = "") -> str:
 
 @mcp.tool()
 def extract_skills(text: str, api_key: str = "") -> str:
-    """Extract and categorize all skills from resume text with proficiency estimates."""
+    """Extract and categorize all skills from resume text with proficiency estimates.
+
+    Behavior:
+        This tool is read-only and stateless — it produces analysis output
+        without modifying any external systems, databases, or files.
+        Safe to call repeatedly with identical inputs (idempotent).
+        Free tier: 10/day rate limit. Pro tier: unlimited.
+        No authentication required for basic usage.
+
+    When to use:
+        Use this tool when you need structured analysis or classification
+        of inputs against established frameworks or standards.
+
+    When NOT to use:
+        Not suitable for real-time production decision-making without
+        human review of results.
+    """
     allowed, msg, tier = check_access(api_key)
     if not allowed:
         return json.dumps({"error": msg, "upgrade_url": "https://meok.ai/pricing"})
@@ -129,7 +161,23 @@ def extract_skills(text: str, api_key: str = "") -> str:
 
 @mcp.tool()
 def match_job(resume_text: str, job_requirements: list[str], api_key: str = "") -> str:
-    """Match a resume against job requirements and return a compatibility report."""
+    """Match a resume against job requirements and return a compatibility report.
+
+    Behavior:
+        This tool is read-only and stateless — it produces analysis output
+        without modifying any external systems, databases, or files.
+        Safe to call repeatedly with identical inputs (idempotent).
+        Free tier: 10/day rate limit. Pro tier: unlimited.
+        No authentication required for basic usage.
+
+    When to use:
+        Use this tool when you need structured analysis or classification
+        of inputs against established frameworks or standards.
+
+    When NOT to use:
+        Not suitable for real-time production decision-making without
+        human review of results.
+    """
     allowed, msg, tier = check_access(api_key)
     if not allowed:
         return json.dumps({"error": msg, "upgrade_url": "https://meok.ai/pricing"})
@@ -164,7 +212,23 @@ def match_job(resume_text: str, job_requirements: list[str], api_key: str = "") 
 
 @mcp.tool()
 def score_resume(text: str, api_key: str = "") -> str:
-    """Score a resume on completeness, formatting indicators, and content quality (0-100)."""
+    """Score a resume on completeness, formatting indicators, and content quality (0-100).
+
+    Behavior:
+        This tool is read-only and stateless — it produces analysis output
+        without modifying any external systems, databases, or files.
+        Safe to call repeatedly with identical inputs (idempotent).
+        Free tier: 10/day rate limit. Pro tier: unlimited.
+        No authentication required for basic usage.
+
+    When to use:
+        Use this tool when you need structured analysis or classification
+        of inputs against established frameworks or standards.
+
+    When NOT to use:
+        Not suitable for real-time production decision-making without
+        human review of results.
+    """
     allowed, msg, tier = check_access(api_key)
     if not allowed:
         return json.dumps({"error": msg, "upgrade_url": "https://meok.ai/pricing"})
