@@ -1,0 +1,31 @@
+# Resume Parser Ai MCP
+
+> Parse resumes to extract skills, match against jobs, and score candidates
+
+`resume-parser-ai-mcp` is a Model Context Protocol (MCP) server by MEOK AI Labs.
+
+## Install
+
+```bash
+pip install resume-parser-ai-mcp
+```
+
+Or run without installing:
+
+```bash
+uvx resume-parser-ai-mcp
+```
+
+## Tools
+
+- `parse_resume` — Parse resume text and extract structured information: contact, skills, education, experience.
+- `extract_skills` — Extract and categorize all skills from resume text with proficiency estimates.
+- `match_job` — Match a resume against job requirements and return a compatibility report.
+- `score_resume` — Score a resume on completeness, formatting indicators, and content quality (0-100).
+
+## Links
+
+- Source: https://github.com/CSOAI-ORG/resume-parser-ai-mcp
+- PyPI: https://pypi.org/project/resume-parser-ai-mcp/
+- MEOK AI Labs: https://meok.ai
+- Council of AI: https://councilof.ai
