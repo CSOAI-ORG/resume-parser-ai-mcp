@@ -1,31 +1,33 @@
-# Resume Parser Ai MCP
-
-> Parse resumes to extract skills, match against jobs, and score candidates
-
-`resume-parser-ai-mcp` is a Model Context Protocol (MCP) server by MEOK AI Labs.
+# resume-parser-ai-mcp
+# **MCP server for resume parser ai mcp operations**
 
 ## Install
-
 ```bash
 pip install resume-parser-ai-mcp
 ```
 
-Or run without installing:
-
-```bash
-uvx resume-parser-ai-mcp
-```
+## Auth & Rate Limits
+- Free tier: 10 calls/day. No API key required.
+- Pro tier (£79/mo): unlimited + signed attestations.
+- Enterprise (£1,499/mo): white-label.
 
 ## Tools
 
-- `parse_resume` — Parse resume text and extract structured information: contact, skills, education, experience.
-- `extract_skills` — Extract and categorize all skills from resume text with proficiency estimates.
-- `match_job` — Match a resume against job requirements and return a compatibility report.
-- `score_resume` — Score a resume on completeness, formatting indicators, and content quality (0-100).
+### `parse_resume`
+Parse resume text and extract structured information: contact, skills, education, experience.
 
-## Links
+### `extract_skills`
+Extract and categorize all skills from resume text with proficiency estimates.
 
-- Source: https://github.com/CSOAI-ORG/resume-parser-ai-mcp
-- PyPI: https://pypi.org/project/resume-parser-ai-mcp/
-- MEOK AI Labs: https://meok.ai
-- Council of AI: https://councilof.ai
+### `match_job`
+Match a resume against job requirements and return a compatibility report.
+
+### `score_resume`
+Score a resume on completeness, formatting indicators, and content quality (0-100).
+
+
+## Maintainer
+MEOK AI Labs · hello@meok.ai · https://meok.ai · MIT licensed
+
+## Pairs with
+Governance moat: pair this tool with any of MEOK's 38 governance MCPs (EU AI Act, DORA, NIS2, CRA, GDPR, ISO 42001, etc.) for full compliance coverage.

@@ -1,0 +1,9 @@
+# resume-parser-ai-mcp - Auto-trigger Rules
+
+When the user asks about resume parser, use resume-parser-ai-mcp tools: parse_resume, extract_skills, match_job, score_resume
+
+**MCP server for resume parser ai mcp operations**
+
+Install: `pip install resume-parser-ai-mcp`
+
+By MEOK AI Labs — MIT licensed.

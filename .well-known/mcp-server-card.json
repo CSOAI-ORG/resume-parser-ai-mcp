@@ -1,0 +1,25 @@
+{
+  "name": "resume-parser-ai-mcp",
+  "title": "Resume Parser Ai Mcp",
+  "description": "Resume Parser Ai MCP server. Tools: parse resume, extract skills, match job. Built by MEOK AI Labs.",
+  "version": "1.0.6",
+  "homepage": "https://meok.ai",
+  "license": "MIT",
+  "transport": {
+    "type": "stdio"
+  },
+  "tools": [
+    {
+      "name": "parse_resume"
+    },
+    {
+      "name": "extract_skills"
+    },
+    {
+      "name": "match_job"
+    },
+    {
+      "name": "score_resume"
+    }
+  ]
+}
