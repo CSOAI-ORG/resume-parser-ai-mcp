@@ -1,0 +1,22 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "resume-parser-ai-mcp",
+    "description": "Resume Parser Ai MCP Server by MEOK AI Labs",
+    "version": "1.0.6",
+    "provider": "MEOK AI Labs",
+    "interfaces": [
+      {
+        "type": "mcp",
+        "transport": "stdio",
+        "package": "resume-parser-ai-mcp"
+      }
+    ],
+    "capabilities": [
+      "parse_resume",
+      "extract_skills",
+      "match_job",
+      "score_resume"
+    ]
+  }
+}

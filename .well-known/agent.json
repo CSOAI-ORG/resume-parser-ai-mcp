@@ -1,0 +1,59 @@
+{
+  "name": "resume-parser-ai-mcp",
+  "description": "Resume Parser Ai MCP Server by MEOK AI Labs",
+  "url": "https://proofof.ai/scorecard/resume-parser-ai-mcp.html",
+  "version": "1.0.6",
+  "protocolVersion": "0.2.0",
+  "provider": {
+    "organization": "MEOK AI Labs",
+    "url": "https://meok.ai"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ],
+  "skills": [
+    {
+      "id": "parse_resume",
+      "name": "Parse Resume",
+      "description": "parse_resume via resume-parser-ai-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "extract_skills",
+      "name": "Extract Skills",
+      "description": "extract_skills via resume-parser-ai-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "match_job",
+      "name": "Match Job",
+      "description": "match_job via resume-parser-ai-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "score_resume",
+      "name": "Score Resume",
+      "description": "score_resume via resume-parser-ai-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    }
+  ]
+}
