@@ -4,9 +4,8 @@
   "version": "1.0.7",
   "description": "Resume Parser Ai MCP Server by MEOK AI Labs",
   "repository": {
-    "type": "git",
     "url": "https://github.com/CSOAI-ORG/resume-parser-ai-mcp",
-    "source": "https://github.com/CSOAI-ORG/resume-parser-ai-mcp"
+    "source": "github"
   },
   "packages": [
     {
