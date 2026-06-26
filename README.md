@@ -113,3 +113,28 @@ Free tier: 10 calls/day per MCP. Pro tier (£79/mo): unlimited + cryptographical
 
 <!-- BUY-LADDER:END -->
 
+
+
+## Configuration
+
+Add to your `claude_desktop_config.json` (Claude Desktop) or your MCP client config:
+
+```json
+{
+  "mcpServers": {
+    "resume-parser-ai-mcp": {
+      "command": "uvx",
+      "args": ["resume-parser-ai-mcp"]
+    }
+  }
+}
+```
+
+Or: `pip install resume-parser-ai-mcp` then run the `resume-parser-ai-mcp` command (stdio transport).
+
+## Examples
+
+Once configured, ask your assistant, for example:
+- "Use `parse_resume` to …"
+- "Use `extract_skills` to …"
+- "Use `match_job` to …"
